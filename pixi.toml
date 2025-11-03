@@ -1,0 +1,10 @@
+[workspace]
+channels = ["conda-forge"]
+name = "coverslip_index_displacement"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+start = "python main.py"
+
+[dependencies]
